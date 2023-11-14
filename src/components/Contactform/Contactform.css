@@ -1,0 +1,110 @@
+.banner{
+    background-color: #F0EFEA;
+    text-align: center;
+    padding: 70px;
+    .h1-banner{
+        font-family: DM Sans;
+        font-size: 56px;
+        font-weight: 700;
+        color: #0E1021
+    }
+    .alink-mainMenu {
+        color: #191919;
+        text-decoration: none;
+        margin-right: 35px;
+        position: relative;
+    
+        &.active {
+            font-weight: 500;
+        }
+    
+        &.active::after,
+        &:hover::after {
+            content: '';
+            position: absolute;
+            font-weight: 500;
+            height: 2px;
+            width: 15px;
+            background-color: #191919;
+            left: 39%;
+            bottom: -3px;
+            transform: translate((calc(50% - 15px)));
+        }
+    
+    }
+}
+.contact-links{
+   .container{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+   column-gap: 60px;
+   padding-top: 50px; 
+   padding-bottom: 50px;
+   padding-left: 160px;
+   }
+   .contact-links-box{
+    align-items: center;
+    display: flex;
+    column-gap: 20px;
+    padding: 30px;
+
+}
+   .btn-contact-list{
+    background-color: #191919;
+    color: #ffff;
+    &:hover{
+        background-color: #FFFFFF;
+        color: #191919;
+        border: 1px solid #191919;
+    }
+   }
+}
+.contact-form{
+   
+    
+    .container{
+        
+        .content-box{
+            display: flex;
+            flex-direction: column;
+            column-gap: 80px;
+            text-align: center;
+            background-color: #F0EFEA;
+
+
+        }
+      .contact-head{
+        padding-top: 50px;
+        .h2-contact-form
+        {
+            font-size: 45px;
+            font-family: DM Sans;
+            font-weight: 700;
+            margin-bottom: 50px;
+        }
+      }
+      .contact-form-input
+      {
+          display: flex;
+          flex-direction: column;
+         padding-bottom: 60px;
+        
+    
+      }
+      .form-input{
+        width: 600px;
+    padding: 13px 45px;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 25px;
+    border: 1px solid #FFFFFF;
+    margin-bottom:30px;
+    
+    }
+    .form-input-message{
+    height: 150px;
+    width: 600px;
+    }
+    }
+}

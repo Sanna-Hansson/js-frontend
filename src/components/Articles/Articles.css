@@ -1,0 +1,96 @@
+
+.articles {
+    .container {
+        padding-top: 120px;
+
+        .h2-articles {
+            order: 1;
+            font-size: 45px;
+            font-family: DM Sans;
+            font-weight: 700;
+        }
+
+        .p1-articles {
+            color: #F94D1C;
+            font-size: 19px;
+        }
+
+        .head-articles {
+            .head-flex-articles {
+                display: flex;
+                align-items: center;
+                column-gap: 380px;
+
+                padding-bottom: 25px;
+
+
+                .btn-articles {
+                    font-size: 15px;
+                    display: block;
+                    background-color: #Ffff;
+                    order: 2;
+                    padding: 10px 55px;
+                    border: 1px solid #191919;
+
+                    &:hover {
+                        background-color: #191919;
+                    }
+                }
+            }
+        }
+
+        .grid-articles {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 30px;
+
+            .box {
+
+                .img-articles {
+                    position: relative;
+                    height: 230px;
+                    width: 90%;
+                }
+
+                .p2-articles {
+                    padding-top: 20px;
+                }
+
+                .h4-articles {
+                    font-size: 22px;
+                    font-family: DM Sans;
+                    font-weight: 700;
+                }
+
+                .img-container {
+                    position: relative;
+
+                    .text-block {
+                        position: absolute;
+                        top: 10px;
+                        left: 10px;
+                        height: 60px;
+                        width: 50px;
+                        background-color: #F9D783;
+
+                        .p-img-container {
+                            margin-top: 5px;
+                            text-align: center;
+                        }
+
+
+                    }
+                }
+
+            }
+
+        }
+
+        .dots-articles {
+            padding: 30px;
+            text-align: center;
+        }
+
+
+    }
+}

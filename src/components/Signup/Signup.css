@@ -1,0 +1,42 @@
+
+.signup {
+    background-color: #F0EFEA;
+    padding-top: 90px;
+    padding-bottom: 90px;
+
+    .img-back-signup {
+        position: absolute;
+        right: 0;
+
+
+    }
+
+    .container {
+        display: flex;
+        column-gap: 190px;
+
+        .h2-signup {
+            font-size: 45px;
+            font-family: DM Sans;
+            font-weight: 700;
+        }
+
+        .form-container {
+            display: flex;
+            column-gap: 30px;
+
+            .form-signup {
+
+                padding: 13px 45px;
+                font-weight: 600;
+                font-size: 16px;
+                border-radius: 25px;
+                border: 1px solid #FFFFFF;
+            }
+
+            .btn-signup {
+                padding: 13px 45px;
+            }
+        }
+    }
+}

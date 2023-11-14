@@ -1,42 +1,103 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,600;9..40,900&display=swap');
+
+html,
+body {
+    
+    color: #191919;
+    font-family: 'inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1, 5;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.btn-yellow {
+    text-align: center;
+    background-color: #F9D783;
+    border: 1px solid #F9D783;
+    color: #191919;
+    text-decoration: none;
+    padding: 12px 25px;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 25px;
+
+    &:hover {
+        background-color: #1c1c1b;
+        border-color: #191919;
+        color: #F9D783;
+    }
+
+    i {
+        color: #191919;
+        margin-left: 8px;
+        font-size: 0, 9em;
+    }
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-transparent {
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid #191919;
+    color: #191919;
+    text-decoration: none;
+    padding: 12px 25px;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 25px;
+
+    &:hover {
+        background-color: #1c1c1b;
+        border-color: #191919;
+        color: #F9D783;
+    }
+
+    i {
+        color: #191919;
+        margin-left: 8px;
+        font-size: 0, 9em;
+    }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.btn-circle {
+    background-color: #F0EFEA;
+    color: #191919;
+    border: 1px solid #191919;
+    border-radius: 50%;
+    padding: 11px 17px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    width: 50px;
+    height: 50px;
+
+    &:hover {
+        background-color: #191919;
+        border: 1px solid #F0EFEA;
+        color: #F0EFEA;
+    }
 }
 
-.card {
-  padding: 2em;
+.btn-black {
+    text-align: center;
+    background-color: #191919;
+    border: 1px solid #191919;
+    color: #F9D783;
+    text-decoration: none;
+    padding: 12px 25px;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 25px;
+
+    &:hover {
+        background-color: #F9D783;
+        border-color: #F9D783;
+        color: #191919;
+    }
+
+    i {
+        color: #191919;
+        margin-left: 8px;
+        font-size: 0, 9em;
+    }
 }
 
-.read-the-docs {
-  color: #888;
-}

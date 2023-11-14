@@ -1,33 +1,55 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
-function App() {
-  const [count, setCount] = useState(0)
+import Showcase from './components/Showcase/Showcase'
+import Header from './components/Header/Header'
+import Companys from './components/Companys/Companys'
+import Features from './components/Features/Features'
+import About from './components/About/About'
+import Services from './components/Services/Services'
+import WhyUs from './components/WhyUs/WhyUs'
+import Projects from './components/Projects/Projects'
+import OurTeam from './components/OurTeam/OurTeam'
+import Articles from './components/Articles/Articles'
+import Signup from './components/Signup/Signup'
+import Footer from './components/Footer/Footer'
 
+function App() {
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+    
+      <Header />
+
+      <Showcase />
+
+      <Companys />
+
+      <Features/>
+     
+      <About/>
+      
+      <Services/>
+      
+      <WhyUs/>
+
+      <Projects/>
+
+      <OurTeam/>
+
+      <Articles/>
+      
+      <Signup/>
+
+      <Footer/>
+
+      
+
+      
+
+     
+
+      {/* här ska du in med browserrouter etc från react-router-dom - finns i inspelningen navigering med react
+       */}
     </>
   )
 }

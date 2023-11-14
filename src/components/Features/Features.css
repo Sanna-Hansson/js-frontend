@@ -1,0 +1,77 @@
+
+.features {
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 600px;
+        padding-top: 70px;
+        padding-bottom: 40px;
+
+        .content {
+            display: grid;
+            grid-template-columns: auto 1fr 1fr;
+
+            grid-template-areas:
+                "button badvice content"
+                "button fadvice risk";
+
+            .box-1 {
+                grid-area: button;
+                align-items: center;
+                text-align: center;
+                padding-top: 70px;
+                padding-right: 30px;
+                padding-left: 50px;
+
+                .p-features {
+                    text-align: left;
+                    font-size: 18;
+                    color: #F94D1C;
+                }
+
+                .h2-features {
+                    font-family: 'DM Sans', sans-serif;
+                    font-weight: 700;
+                    font-size: 45;
+                    text-align: left;
+                    padding-bottom: 30px;
+
+                }
+
+                .btn-features {
+                    padding: 10px 110px;
+                }
+
+            }
+
+
+            .box-2 {
+                grid-area: badvice;
+                font-size: 16px;
+                padding: 80px;
+
+            }
+
+            .box-3 {
+                grid-area: content;
+                padding: 80px;
+            }
+
+            .box-4 {
+                grid-area: fadvice;
+                padding: 80px;
+            }
+
+            .box-5 {
+                grid-area: risk;
+                padding: 80px;
+            }
+
+            h4-features {
+                font-size: 22;
+            }
+
+        }
+    }
+}

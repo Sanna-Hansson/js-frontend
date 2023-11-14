@@ -1,0 +1,120 @@
+
+.about {
+
+    .container {
+        padding-top: 120px;
+        padding-bottom: 100px;
+
+        .content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-areas:
+                "picture about";
+
+            column-gap: 80px;
+            padding-right: 80px;
+            padding-bottom: 100px;
+
+            .img-back-about {
+                position: absolute;
+                top: 40px;
+                left: 10px;
+            }
+
+            .box-1 {
+                grid-area: picture;
+                position: relative;
+
+                .img-about {
+                    position: absolute;
+                    max-width: 540px;
+                    max-height: 620px;
+                    padding-left: 50px;
+                }
+
+                .text-block {
+                    position: absolute;
+                    width: 368px;
+                    height: 180px;
+                    background-color: #BEEBFF;
+                    bottom: 40px;
+                    padding: 40px;
+
+                }
+
+
+            }
+
+            .box-2 {
+                grid-area: about;
+
+                .p3-about {
+                    color: #F94D1C;
+                    font-size: 18px;
+                    padding-bottom: 10px;
+                }
+
+                .p4-about {
+                    padding-top: 30px;
+                    padding-right: 100px;
+                    line-height: 3, 2;
+                    padding-bottom: 60px;
+                }
+
+                .h2-about {
+                    font-family: DM Sans;
+                    font-size: 45px;
+                    font-weight: 700;
+                    line-height: 5, 4;
+                    padding-right: 40px;
+
+                }
+
+                .btn-play {
+                    display: flex;
+                    flex-direction: row;
+                    column-gap: 20px;
+                    align-items: baseline;
+
+
+                    .btn-about {
+                        display: flex;
+                        padding: 10px 70px;
+                        background-color: #191919;
+                        color: #e2e2c0;
+
+                        &:hover {
+                            color: #191919;
+                            background-color:#F9D783
+                        }
+                    }
+
+                    .btn-intro {
+
+                        text-align: center;
+                        border: 1px solid #191919;
+                        padding-left: 20px;
+
+
+                    }
+
+                    .alink-about {
+                        color: #191919;
+                        text-decoration: none;
+
+                        .p5-about {
+                            display: flex;
+                            text-align: center;
+
+                            text-decoration: none;
+                        }
+                    }
+
+
+
+                }
+
+            }
+        }
+    }
+}

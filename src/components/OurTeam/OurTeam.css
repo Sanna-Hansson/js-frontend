@@ -1,0 +1,117 @@
+
+.our-team {
+    background-color: #F9D783;
+    padding-top: 120px;
+    padding-bottom: 90px;
+
+    .container {
+        .p1-our-team {
+            color: #F94D1C;
+            font-size: 19px;
+
+        }
+
+        .h2-our-team {
+            order: 1;
+            font-size: 45px;
+            font-family: DM Sans;
+            font-weight: 700;
+        }
+
+        .head-our-team {
+
+            .head-flex-our-team {
+                display: flex;
+                align-items: center;
+                column-gap: 440px;
+
+                padding-bottom: 25px;
+
+
+                .btn-our-team {
+                    display: block;
+                    order: 2;
+                    padding: 10px 85px;
+                    border: 2px solid #191919;
+                }
+            }
+
+
+
+        }
+
+        .box-our-team {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            align-items: center;
+            column-gap: 25px;
+
+            .box {
+                padding-top: 70px;
+            }
+
+            .img-our-team {
+                height: 420px;
+                width: 307px;
+
+            }
+        }
+
+        .dots-our-team {
+            display: flex;
+            justify-content: center;
+            padding-top: 40px;
+            padding-bottom: 50px;
+        }
+
+        .testimonials {
+            background-color: #Ffff;
+            padding-top: 70px;
+
+            .head-testimonials {
+                text-align: center;
+            }
+
+            .grid-testimonials {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                padding: 90px;
+                column-gap: 70px;
+
+                .client-testimonials {
+                    padding-top: 40px;
+                    display: flex;
+                    flex-direction: row;
+                    column-gap: 10px;
+                }
+
+                .box-2 {
+                    .p1-testimonials {
+                        padding-top: 20px;
+                    }
+
+                    .p2-testimonials {
+                        color: #F94D1C;
+                        font-size: 16px;
+                    }
+
+                    .h4-testimonials {
+                        font-family: DM Sans;
+                        font-size: 22px;
+                        font-weight: 700;
+                    }
+                }
+            }
+
+
+        }
+
+        .button-testimonials {
+
+            background-color: #Ffff;
+            text-align: center;
+            padding-bottom: 120px;
+
+        }
+    }
+}
