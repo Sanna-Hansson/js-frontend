@@ -1,117 +1,69 @@
+.our-team
+{
+background-color: #F0D082;
+padding-bottom: 90px;
+padding-top: 90px;
+}
+.head-our-team{
+    padding-bottom: 40px;
 
-.our-team {
-    background-color: #F9D783;
-    padding-top: 120px;
-    padding-bottom: 90px;
+}
+.head-flex-our-team{
+    display: flex;
+    flex-direction: row;
+    gap: 400px;
+    
+}
+.box-our-team{
+    display: flex;
+    flex-direction: row;
+    
+}
+.container{
+    display: grid;
+    justify-items: center;
 
-    .container {
-        .p1-our-team {
-            color: #F94D1C;
-            font-size: 19px;
+}
+h2{
+    font-family: DM Sans;
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+}
 
-        }
+.img-our-team 
+{
+width: 250px;
+height: 350px;
+margin-right: 20px;
+}
+.grid-testimonials
+{
+    display: flex;
 
-        .h2-our-team {
-            order: 1;
-            font-size: 45px;
-            font-family: DM Sans;
-            font-weight: 700;
-        }
-
-        .head-our-team {
-
-            .head-flex-our-team {
-                display: flex;
-                align-items: center;
-                column-gap: 440px;
-
-                padding-bottom: 25px;
-
-
-                .btn-our-team {
-                    display: block;
-                    order: 2;
-                    padding: 10px 85px;
-                    border: 2px solid #191919;
-                }
-            }
-
-
-
-        }
-
-        .box-our-team {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr;
-            align-items: center;
-            column-gap: 25px;
-
-            .box {
-                padding-top: 70px;
-            }
-
-            .img-our-team {
-                height: 420px;
-                width: 307px;
-
-            }
-        }
-
-        .dots-our-team {
-            display: flex;
-            justify-content: center;
-            padding-top: 40px;
-            padding-bottom: 50px;
-        }
-
-        .testimonials {
-            background-color: #Ffff;
-            padding-top: 70px;
-
-            .head-testimonials {
-                text-align: center;
-            }
-
-            .grid-testimonials {
-                display: grid;
-                grid-template-columns: 1fr 1fr 1fr;
-                padding: 90px;
-                column-gap: 70px;
-
-                .client-testimonials {
-                    padding-top: 40px;
-                    display: flex;
-                    flex-direction: row;
-                    column-gap: 10px;
-                }
-
-                .box-2 {
-                    .p1-testimonials {
-                        padding-top: 20px;
-                    }
-
-                    .p2-testimonials {
-                        color: #F94D1C;
-                        font-size: 16px;
-                    }
-
-                    .h4-testimonials {
-                        font-family: DM Sans;
-                        font-size: 22px;
-                        font-weight: 700;
-                    }
-                }
-            }
-
-
-        }
-
-        .button-testimonials {
-
-            background-color: #Ffff;
-            text-align: center;
-            padding-bottom: 120px;
-
-        }
-    }
+}
+.h2-our-team
+{
+    
+}
+.testimonials
+{
+    background-color: #FFFF;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding: 80px;
+    margin: 40px;
+    
+}
+.button-testimonials
+{
+    padding-top: 50px;
+    background-color: #FFFF;
+}
+.p1-our-team{
+    color: #F94D1C;
+    text-align: left;
+}
+p{
+    font-family: DM Sans;
 }

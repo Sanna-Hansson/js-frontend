@@ -1,0 +1,50 @@
+.img-back-showcase {
+    position: absolute;
+  left: 0;
+  top: 156px;
+
+}
+
+.banner{
+    display: flex;
+    background-color: #F0EFEA;
+   
+    padding: 70px;
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .h1-banner{
+        
+        font-family: DM Sans;
+        font-size: 56px;
+        font-weight: 700;
+        color: #0E1021
+    }
+    .alink-mainMenu {
+        color: #191919;
+        text-decoration: none;
+        position: relative;
+        margin-right: 10px;
+    
+        &.active {
+            font-weight: 500;
+        }
+    
+        &.active::after,
+        &:hover::after {
+            content: '';
+            position: absolute;
+            font-weight: 500;
+            height: 2px;
+            width: 15px;
+            background-color: #191919;
+            left: 39%;
+            bottom: -3px;
+            transform: translate((calc(50% - 15px)));
+        }
+    
+    }
+}

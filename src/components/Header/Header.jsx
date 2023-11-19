@@ -1,5 +1,6 @@
 import './Header.css'
 import React from 'react'
+import { NavLink, Link } from 'react-router-dom'
 
 import phone from '../../assets/images/https-www.flaticon.com-free-icon-telephone-call_3059457related_id=3059457.svg'
 import logotype from '../../assets/images/Img_logo.svg'
@@ -11,7 +12,7 @@ const Header = () => {
     <header>
         <div className=" container">
                 <button className="btn-menu"><i className="fa fa-bars"></i></button>
-                <div> <a href="index.html"> <img src={logotype} alt="logotype"/> </a>
+                <div> <Link to="/"> <img src={logotype} alt="logotype"/> </Link>
                 </div>
 
                 <div className="contact">
@@ -47,10 +48,16 @@ const Header = () => {
                 </div>
                 <div className="main-menu">
                     <nav>
-                        <a className="alink-mainMenu active" href="home.html">Home</a>
-                        <a className="alink-mainMenu" href="services.html">Service</a>
-                        <a className="alink-mainMenu" href="news.html">News</a>
-                        <a className="alink-mainMenu" href="contacts.html">Contact</a>
+                        <ul>
+                        <NavLink className=' alink-mainMenu' to="/"> Home </NavLink>
+                        <NavLink className=' alink-mainMenu' to="/Services"> Services </NavLink>
+                        <NavLink className=' alink-mainMenu' to="/News"> News </NavLink>
+                        <NavLink className=' alink-mainMenu' to="/Contacts"> Contacts </NavLink>
+                               
+                        </ul>
+                       
+                       
+                       
                     </nav>
                     <a href="http://login.html" className="btn-yellow btn-login">Login <i
                             className="fa-regular fa-arrow-up-right"></i> </a>

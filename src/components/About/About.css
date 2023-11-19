@@ -27,15 +27,15 @@
 
                 .img-about {
                     position: absolute;
-                    max-width: 540px;
-                    max-height: 620px;
+                    max-width: 520px;
+                    max-height: 600px;
                     padding-left: 50px;
                 }
 
                 .text-block {
                     position: absolute;
                     width: 368px;
-                    height: 180px;
+                    height: 200px;
                     background-color: #BEEBFF;
                     bottom: 40px;
                     padding: 40px;

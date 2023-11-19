@@ -23,6 +23,7 @@ const OurTeam = () => {
             </div>
 
         </article>
+
         <article className="box-our-team">
             <div className="box">
                 <img className="img-our-team" src={img_ourTeam}
@@ -112,14 +113,15 @@ const OurTeam = () => {
              
                 </div>
             </div>
-        </article>
-        <article className="button-testimonials">
+             <article className="button-testimonials">
             <div>
                 <button className="btn-black"> All Reviews
                     <i className="fa-regular fa-arrow-up-right"></i>
                 </button>
             </div>
         </article>
+        </article>
+       
 
     </div>
 </section>
